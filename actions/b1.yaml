@@ -6,8 +6,33 @@ description: Greet StackStorm!
 enabled: true
 entry_point: "b1.py"
 parameters:
-    book:
+    ID:
         type: string
-        description: Bookname
+        description: id
+        required: true
+        position: 0
+    Title:
+        type: string
+        description: booktitle
         required: true
         position: 1
+    Description:
+        type: string
+        description: booktitle
+        required: true
+        position: 2
+    PageCount:
+        type: string
+        description: count
+        required: true
+        position: 3
+    Excerpt:
+        type: string
+        description: excert
+        required: true
+        position: 4
+    PublishDate: 
+        type: string
+        description: Date
+        required: true
+        position: 5
