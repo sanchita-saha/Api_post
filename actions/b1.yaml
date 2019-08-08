@@ -16,11 +16,6 @@ parameters:
         description: booktitle
         required: true
         position: 1
-    Description:
-        type: string
-        description: book description
-        required: true
-        position: 2
     PageCount:
         type: string
         description: count
