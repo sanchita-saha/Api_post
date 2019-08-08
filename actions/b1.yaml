@@ -18,7 +18,7 @@ parameters:
         position: 1
     Description:
         type: string
-        description: booktitle
+        description: book description
         required: true
         position: 2
     PageCount:
