@@ -1,5 +1,5 @@
 ---
-name: greet
+name: b1
 pack: hello_st2
 runner_type: "python-script"
 description: Greet StackStorm!
