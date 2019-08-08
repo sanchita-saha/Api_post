@@ -20,14 +20,14 @@ parameters:
         type: string
         description: count
         required: true
-        position: 3
+        position: 2
     Excerpt:
         type: string
         description: excert
         required: true
-        position: 4
+        position: 3
     PublishDate: 
         type: string
         description: Date
         required: true
-        position: 5
+        position: 4
