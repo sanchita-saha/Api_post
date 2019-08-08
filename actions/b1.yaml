@@ -4,7 +4,7 @@ pack: hello_st2
 runner_type: "python-script"
 description: Greet StackStorm!
 enabled: true
-entry_point: Book.py
+entry_point: "b1.py"
 parameters:
     book:
         type: string
