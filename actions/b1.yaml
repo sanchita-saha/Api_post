@@ -16,18 +16,23 @@ parameters:
         description: booktitle
         required: true
         position: 1
+    Description:
+        type: string
+        description: booktitle
+        required: true
+        position: 2
     PageCount:
         type: string
         description: count
         required: true
-        position: 2
+        position: 3
     Excerpt:
         type: string
         description: excert
         required: true
-        position: 3
+        position: 4
     PublishDate: 
         type: string
         description: Date
         required: true
-        position: 4
+        position: 5
