@@ -8,4 +8,4 @@ class book(Action):
 		resp = requests.post('http://fakerestapi.azurewebsites.net/api/Books', json=book)
 		if resp.status_code != 201:
 			jdata = ast.literal_eval(json.dumps(resp.json()))
-				print(jdata)
+			print(jdata)
