@@ -7,5 +7,5 @@ class book(Action):
 		#print(book)
 		resp = requests.post('http://fakerestapi.azurewebsites.net/api/Books', json=book)
 		if resp.status_code != 201:
-			jdata = ast.literal_eval(json.dumps(resp.json()))
-			print('{} {}'.format(jdata))
+			jdata = ast.literal_eval((resp.json())
+			print(jdata)
