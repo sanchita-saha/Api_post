@@ -1,0 +1,14 @@
+---
+name: Slack
+pack: hello_st2
+runner_type: "python-script"
+description: Greet StackStorm!
+enabled: true
+entry_point: "Slack.py"
+parameters:
+    messege:
+        type: string
+        description: messege
+        required: true
+        position: 0
+    
